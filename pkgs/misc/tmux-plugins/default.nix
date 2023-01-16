@@ -90,6 +90,24 @@ in rec {
     };
   };
 
+  catppuccin = mkTmuxPlugin {
+    pluginName = "catppuccin";
+    version = "unstable-2022-12-14";
+    src = fetchFromGitHub {
+      owner = "catppuccin";
+      repo = "tmux";
+      rev = "e2561decc2a4e77a0f8b7c05caf8d4f2af9714b3";
+      sha256 = "1lzpfmszi71cscj314jzqcfcgc1axkfcssz1jfy8g8038ld8ajg9";
+    };
+    meta = {
+      homepage = "https://github.com/catppuccin/tmux";
+      description = "Soothing pastel theme for Tmux!";
+      license = lib.licenses.mit;
+      platforms = lib.platforms.unix;
+      maintainers = with lib.maintainers; [ megahirtz ];
+    };
+  };
+
   continuum = mkTmuxPlugin {
     pluginName = "continuum";
     version = "unstable-2022-01-25";
