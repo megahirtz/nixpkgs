@@ -9131,6 +9131,12 @@
     github = "meditans";
     githubId = 4641445;
     name = "Carlo Nucera";
+};
+  megahirtz = {
+    email = "vhirtzel@protonmail.com";
+    github = "megahirtz";
+    githubId = 36388942;
+    name = "Vincent Hirtzel";
   };
   megheaiulian = {
     email = "iulian.meghea@gmail.com";
