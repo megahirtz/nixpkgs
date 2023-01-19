@@ -96,8 +96,8 @@ in rec {
     src = fetchFromGitHub {
       owner = "megahirtz";
       repo = "tmux";
-      rev = "9b170336f639082569c30fb656897cbacdce32d6";
-      sha256 = "1x580hj28kw67z3z2d7b5mbfcgyn1p553nzr3p6pk2f2vzl9cd1f";
+      rev = "dbfdddca15f48acdfed4c581b1d3b5d1895bf5b7";
+      sha256 = "0wp53dqyy8d5qmqy64rv3gkbqizplfplwl7d5zf3rzs0gah7sx67";
     };
     meta = {
       homepage = "https://github.com/catppuccin/tmux";
