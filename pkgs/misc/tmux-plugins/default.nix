@@ -92,12 +92,12 @@ in rec {
 
   catppuccin = mkTmuxPlugin {
     pluginName = "catppuccin";
-    version = "unstable-2022-12-14";
+    version = "unstable-2022-01-18";
     src = fetchFromGitHub {
-      owner = "catppuccin";
+      owner = "megahirtz";
       repo = "tmux";
-      rev = "e2561decc2a4e77a0f8b7c05caf8d4f2af9714b3";
-      sha256 = "1lzpfmszi71cscj314jzqcfcgc1axkfcssz1jfy8g8038ld8ajg9";
+      rev = "9b170336f639082569c30fb656897cbacdce32d6";
+      sha256 = "1x580hj28kw67z3z2d7b5mbfcgyn1p553nzr3p6pk2f2vzl9cd1f";
     };
     meta = {
       homepage = "https://github.com/catppuccin/tmux";
